@@ -1,4 +1,10 @@
 # encoding: utf-8
+require "sequel-jdbc-pervasive-adapter/jpscs.jar"
+require "sequel-jdbc-pervasive-adapter/pvjdbc2.jar"
+require "sequel-jdbc-pervasive-adapter/pvjdbc2x.jar"
+
+Java::JavaClass.for_name("com.pervasive.jdbc.v2.Driver")
+
 module Sequel
   module JDBC
     module Pervasive
