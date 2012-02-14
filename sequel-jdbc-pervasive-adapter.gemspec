@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Stefan Penner"]
   s.email       = ["stefan.penner@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Pervasive JDBC Sequel Adapter}
+  s.description = %q{Basic Implementation of a Pervasive JDBC Sequel Adapter}
 
   s.rubyforge_project = "sequel-jdbc-pervasive-adapter"
 
