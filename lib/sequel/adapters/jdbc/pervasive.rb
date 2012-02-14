@@ -137,7 +137,11 @@ module Sequel
         end
 
         def select_limit_sql(sql)
-          sql << "SELECT TOP #{@opts[:limit]}" if @opts[:limit]
+           if @opts[:limit]
+              sql << "SELECT TOP #{@opts[:limit]}"
+           else
+             sql << "SELECT"
+           end
         end
 
         def supports_is_true?

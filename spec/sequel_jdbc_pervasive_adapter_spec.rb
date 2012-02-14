@@ -28,6 +28,11 @@ describe 'pervasive' do
       it "limits" do
         subject.limit(1).all.count.should == 1
       end
+
+      it "all" do
+        # quick test, fast hack for now
+        subject.unlimited.sql =~ /^SELECT \* FROM \"item\"/
+      end
     end
   end
 end
