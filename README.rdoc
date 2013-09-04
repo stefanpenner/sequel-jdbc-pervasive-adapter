@@ -1,3 +1,8 @@
 = sequel-jdbc-pervasive-adapter
 
 A sequel adapter for working with pervasive databases based on colincasey's sequel-jdbc-hxtt-adapter
+
+
+# don't actually trust this
+
+If someone actually needs this, for more then simple interactions. I can gladly dig in, and improve make it _really_ work.
