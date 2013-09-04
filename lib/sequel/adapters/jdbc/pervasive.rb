@@ -16,7 +16,7 @@ module Sequel
 
         # Return instance of Sequel::JDBC::Pervasive::Dataset with the given opts.
         def dataset(opts=nil)
-          Sequel::JDBC::Pervasive::Dataset.new(self, opts)
+          Sequel::JDBC::Pervasive::Dataset.new(self)
         end
 
         def database_type
